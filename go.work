@@ -1,0 +1,9 @@
+go 1.25.4
+
+use (
+	./cmd/http/api
+	./internal/user/adapter
+	./internal/user/application
+	./internal/user/domain
+	./pkg
+)
